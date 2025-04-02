@@ -6,50 +6,137 @@
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
+## ⚙️ osTicket Configuration
 
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
+Once osTicket is installed, follow these steps to configure the system for real-world use.
 
-<h2>Environments and Technologies Used</h2>
+---
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+### 🔐 Access URLs
 
-<h2>Operating Systems Used </h2>
+- **Admin / Analyst Login Page:**  
+  [http://localhost/osTicket/scp/login.php](http://localhost/osTicket/scp/login.php)
 
-- Windows 10</b> (21H2)
+- **End User Portal:**  
+  [http://localhost/osTicket](http://localhost/osTicket)
 
-<h2>Post-Install Configuration Objectives</h2>
+---
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+### 🧭 Understand Panels
 
-<h2>Configuration Steps</h2>
+- **Admin Panel**: Full system configuration  
+- **Agent Panel**: Where agents manage and respond to tickets
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+---
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+### 🧱 Roles
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+> Roles control **permissions** assigned to agents.
+
+- Navigate to:  
+  `Admin Panel → Agents → Roles`
+- Create Role:  
+  `Supreme Admin`
+
+---
+
+### 🏢 Departments
+
+> Departments control **ticket visibility**.
+
+- Navigate to:  
+  `Admin Panel → Agents → Departments`
+- Examples:
+  - `SysAdmins`
+  - `Help Desk`
+  - `Networking`
+
+---
+
+### 🧑‍🤝‍🧑 Teams
+
+> Teams allow grouping of agents **across departments**.
+
+- Navigate to:  
+  `Admin Panel → Agents → Teams`
+- Example Team:  
+  `Online Banking`
+
+---
+
+### 📩 User Ticket Settings
+
+- Navigate to:  
+  `Admin Panel → Settings → User Settings`
+
+- Configure:
+  - ✅ **Require registration and login to create tickets**
+  - 🔲 **Uncheck "unregistered users can create tickets"**
+
+---
+
+### 👥 Configure Agents
+
+> Agents are your helpdesk workers or IT staff.
+
+- Navigate to:  
+  `Admin Panel → Agents → Add New`
+
+- Add:
+  - `Jane` (Dept: SysAdmins)
+  - `John` (Dept: Support)
+
+---
+
+### 🙋‍♂️ Configure Users
+
+> Users are your end customers.
+
+- Navigate to:  
+  `Agent Panel → Users → Add New`
+
+- Add:
+  - `Karen`
+  - `Ken`
+
+---
+
+### ⏱️ Configure SLA (Service Level Agreements)
+
+> SLAs define how fast issues must be addressed.
+
+- Navigate to:  
+  `Admin Panel → Manage → SLA`
+
+- Configure:
+  - `Sev-A`: 1 hour (Schedule: 24/7)
+  - `Sev-B`: 4 hours (Schedule: 24/7)
+  - `Sev-C`: 8 hours (Schedule: Business Hours)
+
+---
+
+### 🆘 Configure Help Topics
+
+> Help topics guide users when submitting tickets.
+
+- Navigate to:  
+  `Admin Panel → Manage → Help Topics`
+
+- Add:
+  - Business Critical Outage  
+  - Personal Computer Issues  
+  - Equipment Request  
+  - Password Reset  
+  - Other
+
+---
+
+### 📸 Screenshots (Optional)
+
+To embed screenshots, place them in a `screenshots/` folder and use this format:
+
+```markdown
+![Roles Config](screenshots/roles.png)
+![SLA Setup](screenshots/sla.png)
+![Help Topics](screenshots/help-topics.png)
+
