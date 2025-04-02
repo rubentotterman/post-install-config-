@@ -136,7 +136,7 @@ Once osTicket is installed, follow these steps to configure the system for real-
 ![Roles Config](Screenshots/2.PNG)
 ![Team Config](Screenshots/CreateTeam.PNG)
 ![Help Topics](Screenshots/HelpTopics.PNG)
-![SLA Config](Screenshots/SLA-config.png)
-![SLA](Screenshots/SLA.png)
+![SLA Config](Screenshots/SLA-config.PNG)
+![SLA](Screenshots/SLA.PNG)
 
 
