@@ -131,16 +131,12 @@ Once osTicket is installed, follow these steps to configure the system for real-
 
 ---
 
-### 📸 Screenshots (Optional)
 
-To embed screenshots, place them in a `screenshots/` folder and use this format:
-
-markdown
-![Roles Config](screenshots/1.PNG)
-![Roles Config](screenshots/2.PNG)
-![Team Config](screenshots/CreateTeam.PNG)
-![Help Topics](screenshots/HelpTopics.PNG)
-![SLA Config](screenshots/SLA-config.png)
-![SLA](screenshots/SLA.png)
+![Roles Config](Screenshots/1.PNG)
+![Roles Config](Screenshots/2.PNG)
+![Team Config](Screenshots/CreateTeam.PNG)
+![Help Topics](Screenshots/HelpTopics.PNG)
+![SLA Config](Screenshots/SLA-config.png)
+![SLA](Screenshots/SLA.png)
 
 
