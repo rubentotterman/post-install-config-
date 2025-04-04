@@ -1,4 +1,4 @@
-# post-install-config-<p align="center">
+post-install-config-<p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
@@ -6,32 +6,32 @@
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
-## ⚙️ osTicket Configuration
+osTicket Configuration
 
 Once osTicket is installed, follow these steps to configure the system for real-world use.
 
 ---
 
-### 🔐 Access URLs
+Access URLs
 
-- **Admin / Analyst Login Page:**  
+- Admin / Analyst Login Page:  
   [http://localhost/osTicket/scp/login.php](http://localhost/osTicket/scp/login.php)
 
-- **End User Portal:**  
+- End User Portal: 
   [http://localhost/osTicket](http://localhost/osTicket)
 
 ---
 
-### 🧭 Understand Panels
+Understand Panels
 
-- **Admin Panel**: Full system configuration  
-- **Agent Panel**: Where agents manage and respond to tickets
+- Admin Panel: Full system configuration  
+- Agent Panel: Where agents manage and respond to tickets
 
 ---
 
-### 🧱 Roles
+ Roles
 
-> Roles control **permissions** assigned to agents.
+> Roles control permissions assigned to agents.
 
 - Navigate to:  
   `Admin Panel → Agents → Roles`
@@ -40,9 +40,9 @@ Once osTicket is installed, follow these steps to configure the system for real-
 
 ---
 
-### 🏢 Departments
+Departments
 
-> Departments control **ticket visibility**.
+> Departments control ticket visibility.
 
 - Navigate to:  
   `Admin Panel → Agents → Departments`
@@ -53,9 +53,9 @@ Once osTicket is installed, follow these steps to configure the system for real-
 
 ---
 
-### 🧑‍🤝‍🧑 Teams
+Teams
 
-> Teams allow grouping of agents **across departments**.
+> Teams allow grouping of agents across departments.
 
 - Navigate to:  
   `Admin Panel → Agents → Teams`
@@ -64,7 +64,7 @@ Once osTicket is installed, follow these steps to configure the system for real-
 
 ---
 
-### 📩 User Ticket Settings
+User Ticket Settings
 
 - Navigate to:  
   `Admin Panel → Settings → User Settings`
@@ -75,7 +75,7 @@ Once osTicket is installed, follow these steps to configure the system for real-
 
 ---
 
-### 👥 Configure Agents
+Configure Agents
 
 > Agents are your helpdesk workers or IT staff.
 
@@ -88,7 +88,7 @@ Once osTicket is installed, follow these steps to configure the system for real-
 
 ---
 
-### 🙋‍♂️ Configure Users
+Configure Users
 
 > Users are your end customers.
 
@@ -101,7 +101,7 @@ Once osTicket is installed, follow these steps to configure the system for real-
 
 ---
 
-### ⏱️ Configure SLA (Service Level Agreements)
+Configure SLA (Service Level Agreements)
 
 > SLAs define how fast issues must be addressed.
 
@@ -115,7 +115,7 @@ Once osTicket is installed, follow these steps to configure the system for real-
 
 ---
 
-### 🆘 Configure Help Topics
+Configure Help Topics
 
 > Help topics guide users when submitting tickets.
 
